@@ -122,10 +122,12 @@ public class Solution
 
         Dictionary<string, List<string>> map = new Dictionary<string, List<string>>();
 
-        int[] count = new int[26];
 
         foreach (string s in strs)
         {
+
+            int[] count = new int[26];
+
 
             foreach (char ch in s.ToCharArray())
             {

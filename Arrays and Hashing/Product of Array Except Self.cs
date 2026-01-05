@@ -10,8 +10,6 @@ class Solution
 
         int[] res = new int[nums.Length];
 
-
-
         int pre = 1, post = 1;
         for (int i = 0; i < nums.Length; i++)
         {
